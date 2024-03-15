@@ -1,0 +1,53 @@
+canvas{
+    border-left: red 5px solid;
+    border-right: blue 5px solid;
+    border-top: red 5px solid;
+    border-bottom: blue 5px solid;
+    border-style: ridge;
+    border-radius: 20px;
+}
+
+#title{
+    top: 0;
+    width: 100%;
+    font-size: xx-large;
+    text-align: left;
+    background-color: orange;
+    height: 10%;
+}
+
+.heading{
+ width: 100%;
+ display: inline;
+}
+
+#HOW{
+    float: right;
+}
+
+.modal-body,.modal-header{
+    background-color: orange;
+    font-weight: bold;
+    font-family: system-ui;
+    color: white;
+}
+
+#myModal{
+    border-radius: 20px;
+}
+
+#Footer{
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    display: inline;
+    line-height: 2;
+    text-align: center;
+}
+
+#status{
+    background-color: white;
+    width: 100px;
+    border-radius: 20px;
+}
